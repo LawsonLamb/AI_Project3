@@ -1,0 +1,17 @@
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/ItBNinja/AI_Project3/obj/Debug/Assembly-CSharp.dll
+/Users/ItBNinja/AI_Project3/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/UnityEngine.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/UnityEditor.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/Mono.Cecil.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/Unity.DataContract.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/ItBNinja/AI_Project3/Temp/bin/Debug/Mono.Cecil.Mdb.dll

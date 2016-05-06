@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Sarsa.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Sarsa.cs" Line="12" Column="14" />
+      <File FileName="Assets/Scripts/Grid.cs" Line="27" Column="39" />
+      <File FileName="Assets/Scripts/Tile.cs" Line="31" Column="20" />
+      <File FileName="Assets/Scripts/State.cs" Line="8" Column="10" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
