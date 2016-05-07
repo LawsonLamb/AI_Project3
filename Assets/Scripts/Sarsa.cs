@@ -10,7 +10,7 @@ public class Sarsa{
 	double alpha = 0.4;
 	double gamma = 0.7;
 	double lambda =0.9;
-	double epsilon =0.9;
+	public double epsilon =0.9;
 	double delta =0;
 	
 	public Vector2 oldState;
@@ -180,8 +180,8 @@ public class Sarsa{
 	public void SaveTables(){
 
 
-			StreamWriter Qwriter = new StreamWriter ("/Users/ItBNinja/AI_Project3/Assets/QTable.txt");
-			StreamWriter Ewriter = new StreamWriter ("/Users/ItBNinja/AI_Project3/Assets/ETable.txt");
+			StreamWriter Qwriter = new StreamWriter (@"C:\Users\Ninja\Documents\AI_Project3\Assets\QTable.txt");
+			StreamWriter Ewriter = new StreamWriter (@"C:\Users\Ninja\Documents\AI_Project3\Assets\ETable.txt");
 				
 
 			Qwriter.WriteLine (epsilon.ToString());
@@ -217,8 +217,8 @@ public class Sarsa{
 
 	public void LoadTables(){
 
-			StreamReader Qreader = new StreamReader ("/Users/ItBNinja/AI_Project3/Assets/QTable.txt");
-			StreamReader Ereader = new StreamReader ("/Users/ItBNinja/AI_Project3/Assets/ETable.txt");
+			StreamReader Qreader = new StreamReader (@"C:\Users\Ninja\Documents\AI_Project3\Assets\QTable.txt");
+			StreamReader Ereader = new StreamReader (@"C:\Users\Ninja\Documents\AI_Project3\Assets\ETable.txt");
 
 
 			string QLine = Qreader.ReadLine ();

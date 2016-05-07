@@ -31,14 +31,20 @@ public class Grid : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Input.GetKeyDown (KeyCode.Return)) {
-			for (int i = 0; i < 100; i++) {
-				sarsa.takeStep ();
-				print ("DEAD");
+		if (Input.GetKeyDown (KeyCode.Space)) {
+           
+                sarsa.takeStep();
 
-			}
-			print ("SAVE");
-			sarsa.SaveTables ();
+
+            
+                 
+                    //   print("DEAD");
+
+               
+
+
+              //  print("SAVE");
+              //  sarsa.SaveTables();
 
 			/*
 			if (sarsa.takeStep ()) {
@@ -77,7 +83,7 @@ public class Grid : MonoBehaviour {
 
 		Tiles = new Tile[20, 20];
 
-		StreamReader reader = new StreamReader("/Users/ItBNinja/AI_Project3/Assets/map.txt");
+		StreamReader reader = new StreamReader(@"C:\Users\Ninja\Documents\AI_Project3\Assets\map.txt");
 
 
 		string currentLine = reader.ReadLine();
