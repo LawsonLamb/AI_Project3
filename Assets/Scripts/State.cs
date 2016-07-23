@@ -36,11 +36,11 @@ public class State{
 
 		case TileType.Path:
 
-			return 1;
+			return 0;
 
 
 		case TileType.Goal:
-			return 2;
+			return 1;
 
 
 

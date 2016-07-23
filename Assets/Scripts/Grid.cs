@@ -33,27 +33,31 @@ public class Grid : MonoBehaviour {
 
 		if (Input.GetKeyDown (KeyCode.Space)) {
            
+              
+
+
+                for(int i =0; i < 10000; i++)
+                {
                 sarsa.takeStep();
+                  }
+            sarsa.SaveTables();
+
+              print("DEAD");
 
 
-            
-                 
-                    //   print("DEAD");
-
-               
 
 
-              //  print("SAVE");
-              //  sarsa.SaveTables();
+            //  print("SAVE");
+            //  sarsa.SaveTables();
 
-			/*
+            /*
 			if (sarsa.takeStep ()) {
 
 			//	print ("DEAD");
 			}
 			*/
 
-		}
+        }
 
 		if (Input.GetKeyDown (KeyCode.P)) {
 
